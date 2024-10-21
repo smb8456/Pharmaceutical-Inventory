@@ -1,4 +1,5 @@
-#Class that manages a collection of items in a pharmaceutical invetory
+#Class that manages a collection of items in a pharmaceutical inventory
+
 from Item import Item
 class Inventory:
     def __init__(self):
