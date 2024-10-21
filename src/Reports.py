@@ -59,9 +59,6 @@ class Reports:
             # Calculate the difference in days
             days_until_expiry = (expiry_date - today).days
 
-            # Debugging print statements
-            #print(f"Checking item: {x.get_name()}, Expiry Date: {expiry_date.strftime('%Y-%m-%d')}, Days Until Expiry: {days_until_expiry}")
-
             # Check if the item is close to expiration
             if days_until_expiry <= days_threshold:
                 expiring_items.append(x)
