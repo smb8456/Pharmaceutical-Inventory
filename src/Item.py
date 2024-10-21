@@ -1,4 +1,5 @@
 #Class that represents/handles individual items in an pharmecutical inventory
+
 class Item:
     def __init__(self, ID, name, quantity, price, expiry_Date, type, manufacturer, description):
         self.ID = ID
