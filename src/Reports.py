@@ -1,4 +1,5 @@
 #Class that generate reports for a pharmaceutical inventory
+
 from datetime import datetime, timedelta
 from Inventory import Inventory
 class Reports:
