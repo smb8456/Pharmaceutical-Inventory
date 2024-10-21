@@ -13,8 +13,6 @@ for my CMPSC 132-002: Programming and Computation II: Data Structures course.
 ## USAGE & INSTRUCTIONS
 
 ## Creating a Items Class
-Creating items for the inventory:
-
 ```python
 amoxicillin = Item("00001", 'Amoxicillin 500mg Capsules', 15, 15.99, '2024-10-20', 'Capsule', 'AM Pharmaceuticals', 'Used to treat bacterial infections')
 ibuprofen = Item("00002", 'Ibuprofen 200mg Tablets', 5, 9.99, '2026-01-09', 'Tablet', 'IM Pharmaceuticals', 'Used for pain relief')
