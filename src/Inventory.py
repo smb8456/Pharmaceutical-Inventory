@@ -67,7 +67,6 @@ class Inventory:
             items = 'Items In Low Stock:\n'
             for x in low_stock_items:
                 items += f"ID: {x.get_ID()} | Quanity: {x.get_quantity()}\n"
-            #print(items)
             return low_stock_items
         else:
             return 'All items are in stock.'
